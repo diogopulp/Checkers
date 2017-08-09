@@ -10,13 +10,13 @@
         android:id="@+id/gridview"
         android:layout_width="350dp"
         android:layout_height="350dp"
-        android:columnWidth="40dp"
+        android:background="@drawable/background_bw"
+        android:columnWidth="43.73dp"
+        android:gravity="center"
         android:numColumns="8"
         android:stretchMode="none"
-        android:gravity="center"
-        tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp"
-        android:background="@drawable/background_bw"/>
+        tools:layout_editor_absoluteY="8dp" />
 
 
 

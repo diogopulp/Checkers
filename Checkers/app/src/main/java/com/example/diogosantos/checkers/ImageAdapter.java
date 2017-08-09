@@ -36,9 +36,9 @@ public class ImageAdapter extends BaseAdapter {
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(70, 70));
+            imageView.setLayoutParams(new GridView.LayoutParams(65, 65));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(10, 10, 10, 10);
+            imageView.setPadding(5, 5, 5, 5);
         } else {
             imageView = (ImageView) convertView;
         }
@@ -49,41 +49,46 @@ public class ImageAdapter extends BaseAdapter {
 
     // references to our images
     private Integer[] mThumbIds = {
-            R.drawable.ck_black,R.drawable.ck_white
-            /*R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
 
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
+            R.drawable.transp,R.drawable.ck_black,
+            R.drawable.transp,R.drawable.ck_black,
+            R.drawable.transp,R.drawable.ck_black,
+            R.drawable.transp,R.drawable.ck_black,
 
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
+            R.drawable.ck_black,R.drawable.transp,
 
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw1,R.drawable.bg_bw2,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,
-            R.drawable.bg_bw2,R.drawable.bg_bw1,*/
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+            R.drawable.transp,R.drawable.transp,
+
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+
+            R.drawable.ck_white,R.drawable.transp,
+            R.drawable.ck_white,R.drawable.transp,
+            R.drawable.ck_white,R.drawable.transp,
+            R.drawable.ck_white,R.drawable.transp,
+
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+            R.drawable.transp,R.drawable.ck_white,
+
+
     };
 }
